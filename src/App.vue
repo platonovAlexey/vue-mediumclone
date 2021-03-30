@@ -1,6 +1,16 @@
 <template>
   <div id="app">
-    <h1>Hellow Medium Clone</h1>
+    <mcv-topbar />
     <router-view />
   </div>
 </template>
+
+<script>
+import McvTopbar from '@/components/Topbar'
+export default {
+  name: 'McvApp',
+  components: {
+    McvTopbar
+  }
+}
+</script>
