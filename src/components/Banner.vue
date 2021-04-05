@@ -9,6 +9,11 @@
 
 <script>
 export default {
-  name: 'McvBanner'
+  name: 'McvBanner',
+  data() {
+    return {
+      foo: null
+    }
+  }
 }
 </script>
